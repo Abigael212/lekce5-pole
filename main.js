@@ -5,14 +5,15 @@
 
 // Úkol 1 - Založ nové pole se seznamem jmen (alespoň 5)
 // Vypiš jeho obsah do stránky - JavaScript spojí pole automaticky do řetězce
-
-
+let pole = ["Aragorn", "Frodo Baggins", "Samwise Gamgee", "Peregrin Took", "Meriadoc Brandybuck", "Legolas", "Gimli", "Boromir"];
+vypisText(pole);
 
 
 
 // Úkol 2 - Vypiš třetí jméno v pořadí
 // Nezapomeň, že pole se čísluje od 0
-
+let treti = pole[2];
+vypisText(treti);
 
 
 
@@ -20,7 +21,8 @@
 
 // Úkol 3 - Kolik jmen je v poli?
 // Pole má vlastnost pole.length
-
+let pocet = pole.length;
+vypisText(pocet);
 
 
 
@@ -41,7 +43,8 @@
 // pole.push()
 // pole.unshift()
 // Doplněný seznam jmen vypiš (jednoduše jako v příkladu 1)
-
+pole.push("Arwen Eveningstar");
+vypisText(pole);
 
 
 
@@ -50,8 +53,9 @@
 // obě jména a pak i výsledné pole
 // pole.shift()
 // pole.pop()
-
-
+vypisText(pole.shift());
+vypisText(pole.pop());
+vypisText(pole);
 
 
 
